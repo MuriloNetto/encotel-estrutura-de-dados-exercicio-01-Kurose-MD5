@@ -6,7 +6,8 @@ public class Encontel {
 		Scanner entry = new Scanner(System.in);
 		String in = "";
 		
-		while (entry.hasNext()) {
+		
+			System.out.print("Digite a frase para fazer a busca:");
 			in = entry.next().toUpperCase();
 			String out = "";
 			for (int i = 0; i < in.length(); i++) {
@@ -36,4 +37,3 @@ public class Encontel {
 
 		}
 	}
-}
