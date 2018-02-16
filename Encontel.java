@@ -7,7 +7,7 @@ public class Encontel {
 		String in = "";
 		
 		while (entry.hasNext()) {
-			System.out.print(Ïnforme a frase pra buscar");
+			System.out.print("Informe a frase pra buscar");
 			in = entry.next().toUpperCase();
 			String out = "";
 			for (int i = 0; i < in.length(); i++) {
